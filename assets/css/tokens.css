@@ -1,0 +1,71 @@
+/* Fonts */
+:root {
+  --default-font: "Roboto",  system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  --heading-font: "Raleway",  sans-serif;
+  --nav-font: "Poppins",  sans-serif;
+}
+
+:root {
+  --background-color: #fffbff;
+  --default-color: #212529;
+  --heading-color: #2e0a13;
+  --accent-color: #5b387a;
+  --primary-purple: #6c458f;
+  --dark-purple: #2d004f;
+  --light-purple: #f1daff;
+  --surface-color: #ffffff; 
+  --contrast-color: #ffffff;
+  --selected-text-color: #212529;;
+  /* Nav colors */
+  --nav-color: rgba(255, 255, 255, 0.6);  
+  --nav-hover-color: #ffffff; 
+  --nav-mobile-background-color: #ffffff;
+  --nav-dropdown-background-color: #ffffff; 
+  --nav-dropdown-color: #212529; 
+  --nav-dropdown-hover-color: #6c458f; 
+  /* neutral */
+  --neutral30: #494649;
+  --neutral40: #615d61;
+  --neutral60: #948f94;
+  --neutral80: #cbc5c9;
+
+  /* neutral-variant */
+  --neutral-variant10: #1e1a22;
+  --neutral-variant20: #342e37;
+  --neutral-variant30: #4b454d;
+  --neutral-variant40: #635c65;
+  --neutral-variant60: #968e98;
+  --neutral-variant80: #cdc4ce;
+  --neutral-variant90: #e9dfea;
+  
+  /* light */
+  --color-secondary: #5f6300;
+  --selected-color: #faff9c;
+  --color-on-secondary-container: #1c1d00;
+  --color-tertiary: #7d5800;
+  --color-tertiary-container: #ffdea9;
+  --color-on-tertiary-container: #271900;
+  --color-error: #ba1a1a;
+  --color-error-container: #ffdad6;
+  --color-on-background: #1d1b1e;
+  --color-surface: #fffbfe;
+  --color-on-surface: #221e23;
+  --color-inverse-on-surface: #f6eff3;
+  --color-inverse-primary: #dfb7ff;
+  --color-outline: #7c757e;
+}
+
+.light-background {
+  --background-color: #f4f4f4;
+  --surface-color: #ffffff;
+}
+
+.dark-background {
+  --background-color: #060606;
+  --default-color: #ffffff;
+  --accent-color: #f1daff;
+  --heading-color: #ffffff;
+  --surface-color: #252525;
+  --contrast-color: #ffffff;
+}
+
