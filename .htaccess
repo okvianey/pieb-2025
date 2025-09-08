@@ -6,4 +6,12 @@
 </IfModule>
 # php -- END cPanel-generated handler, do not edit
 
-# Redireccionar a la versión con www RewriteEngine On RewriteCond %{HTTP_HOST} ^iglesiabautistacoatza\.com [NC] RewriteRule ^(.*)$ https://www.iglesiabautistacoatza.com/$1 [L,R=301] # O redireccionar a la versión sin www # RewriteEngine On # RewriteCond %{HTTP_HOST} ^www\.iglesiabautistacoatza\.com [NC] # RewriteRule ^(.*)$ https://iglesiabautistacoatza.com/$1 [L,R=301]
+RewriteEngine On
+
+# Redirigir HTTP a HTTPS
+RewriteCond %{HTTPS} off
+RewriteRule ^(.*)$ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
+
+# Redirigir www a no-www (para HTTPS)
+RewriteCond %{HTTP_HOST} ^www\.iglesiabautistacoatza\.com [NC]
+RewriteRule ^(.*)$ https://iglesiabautistacoatza.com/$1 [L,R=301]
