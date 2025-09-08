@@ -47,7 +47,7 @@ h6 {
   display: inline-block;
   background: var(--accent-color);
   color: var(--contrast-color);
-  padding: 16px 32px;
+  padding: 16px 10px;
   border-radius: 8px;
   font-weight: 500;
   text-decoration: none;
@@ -66,6 +66,7 @@ h6 {
   align-items: center;
   gap: 8px;
   color: var(--accent-color);
+  padding: 16px 10px;
   font-weight: 500;
   text-decoration: none;
   transition: all 0.3s ease;
