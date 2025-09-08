@@ -5,3 +5,5 @@
   AddHandler application/x-httpd-ea-php83___lsphp .php .php8 .phtml
 </IfModule>
 # php -- END cPanel-generated handler, do not edit
+
+# Redireccionar a la versión con www RewriteEngine On RewriteCond %{HTTP_HOST} ^iglesiabautistacoatza\.com [NC] RewriteRule ^(.*)$ https://www.iglesiabautistacoatza.com/$1 [L,R=301] # O redireccionar a la versión sin www # RewriteEngine On # RewriteCond %{HTTP_HOST} ^www\.iglesiabautistacoatza\.com [NC] # RewriteRule ^(.*)$ https://iglesiabautistacoatza.com/$1 [L,R=301]
