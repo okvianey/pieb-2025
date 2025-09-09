@@ -2081,19 +2081,8 @@ section,
   min-height: 160px;
 }
 
-.contact .form-wrapper button {
-  background-color: var(--accent-color);
-  border: 0;
-  padding: 12px 40px;
-  color: var(--contrast-color);
-  border-radius: 8px;
-  transition: 0.3s;
-  font-size: 16px;
-  font-weight: 500;
-}
-
-.contact .form-wrapper button:hover {
-  background-color: color-mix(in srgb, var(--accent-color), transparent 20%);
+#my-form-button {
+  padding: 12px 36px;
 }
 
 .form-status {
